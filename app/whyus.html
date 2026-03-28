@@ -1,0 +1,954 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Dlaczego My | Web-Boost – Agencja Stron Internetowych & SEO</title>
+    <meta name="description"
+        content="Poznaj Web-Boost — agencję tworzenia stron internetowych z Warszawy. Sprawdź nasze wartości, historię i dlaczego ponad 120 firm wybrało nas jako partnera cyfrowego." />
+    <meta name="keywords"
+        content="agencja web Warszawa, dlaczego Web-Boost, tworzenie stron internetowych, pozycjonowanie SEO, opinie" />
+    <meta name="robots" content="index, follow" />
+    <link rel="canonical" href="https://web-boost.pl/dlaczego-my" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://web-boost.pl/dlaczego-my" />
+    <meta property="og:title" content="Dlaczego My | Web-Boost" />
+    <meta property="og:description"
+        content="Ponad 120 firm wybrało Web-Boost. Poznaj nasze wartości i podejście do każdego projektu." />
+    <meta property="og:locale" content="pl_PL" />
+    <meta name="twitter:card" content="summary_large_image" />
+
+    <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"WebPage","name":"Dlaczego Web-Boost","description":"O agencji Web-Boost — wartości, historia i podejście do projektów","url":"https://web-boost.pl/dlaczego-my","isPartOf":{"@type":"WebSite","name":"Web-Boost","url":"https://web-boost.pl"}}
+  </script>
+
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Syne:wght@600;700;800&family=Manrope:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet" />
+
+    <script>tailwind.config = { theme: { extend: { colors: { primary: '#38BDF8', darkBg: '#080E1A', darkCard: '#0D1626' }, fontFamily: { display: ['Syne', 'sans-serif'], body: ['Manrope', 'sans-serif'] } } } }</script>
+
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0
+        }
+
+        html {
+            scroll-behavior: smooth
+        }
+
+        body {
+            font-family: 'Manrope', sans-serif;
+            background-color: #080E1A;
+            color: #CBD5E1;
+            overflow-x: hidden
+        }
+
+        body::before {
+            content: '';
+            position: fixed;
+            inset: 0;
+            background-image: url("data:image/svg+xml,%3Csvg viewBox='0 0 512 512' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23n)'/%3E%3C/svg%3E");
+            opacity: .018;
+            pointer-events: none;
+            z-index: 9999
+        }
+
+        .glass {
+            background: rgba(255, 255, 255, .03);
+            backdrop-filter: blur(16px);
+            -webkit-backdrop-filter: blur(16px);
+            border: 1px solid rgba(255, 255, 255, .08)
+        }
+
+        .grad-text {
+            background: linear-gradient(135deg, #38BDF8 0%, #818CF8 60%, #C084FC 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text
+        }
+
+        .btn-primary {
+            background: linear-gradient(135deg, #38BDF8, #818CF8);
+            transition: opacity .2s, transform .2s, box-shadow .2s
+        }
+
+        .btn-primary:hover {
+            opacity: .9;
+            transform: translateY(-2px);
+            box-shadow: 0 12px 40px rgba(56, 189, 248, .35)
+        }
+
+        .reveal {
+            opacity: 0;
+            transform: translateY(36px);
+            transition: opacity .7s cubic-bezier(.16, 1, .3, 1), transform .7s cubic-bezier(.16, 1, .3, 1)
+        }
+
+        .reveal.visible {
+            opacity: 1;
+            transform: translateY(0)
+        }
+
+        .reveal-delay-1 {
+            transition-delay: .1s
+        }
+
+        .reveal-delay-2 {
+            transition-delay: .2s
+        }
+
+        .reveal-delay-3 {
+            transition-delay: .3s
+        }
+
+        .reveal-delay-4 {
+            transition-delay: .4s
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0)
+            }
+
+            50% {
+                transform: translateY(-16px)
+            }
+        }
+
+        @keyframes glow {
+
+            0%,
+            100% {
+                opacity: .3;
+                transform: scale(1)
+            }
+
+            50% {
+                opacity: .6;
+                transform: scale(1.06)
+            }
+        }
+
+        @keyframes slideDown {
+            from {
+                opacity: 0;
+                transform: translateY(-10px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        @keyframes countUp {
+            from {
+                opacity: 0;
+                transform: translateY(20px)
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0)
+            }
+        }
+
+        .animate-glow {
+            animation: glow 4s ease-in-out infinite
+        }
+
+        .value-card {
+            border: 1px solid rgba(255, 255, 255, .06);
+            transition: border-color .3s, transform .3s, box-shadow .3s
+        }
+
+        .value-card:hover {
+            border-color: rgba(56, 189, 248, .4);
+            transform: translateY(-6px);
+            box-shadow: 0 20px 60px rgba(56, 189, 248, .07)
+        }
+
+        .value-card:hover .val-icon {
+            background: #38BDF8;
+            color: #0D1626;
+            transform: scale(1.1) rotate(-5deg)
+        }
+
+        .val-icon {
+            transition: background .3s, color .3s, transform .3s
+        }
+
+        .timeline-dot {
+            transition: transform .3s, box-shadow .3s
+        }
+
+        .timeline-item:hover .timeline-dot {
+            transform: scale(1.15);
+            box-shadow: 0 0 20px rgba(56, 189, 248, .5)
+        }
+
+        .stat-card {
+            border: 1px solid rgba(255, 255, 255, .06);
+            transition: border-color .3s
+        }
+
+        .stat-card:hover {
+            border-color: rgba(56, 189, 248, .3)
+        }
+
+        #mobile-menu {
+            display: none;
+            animation: slideDown .25s ease
+        }
+
+        #mobile-menu.open {
+            display: block
+        }
+
+        ::-webkit-scrollbar {
+            width: 6px
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #080E1A
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: rgba(56, 189, 248, .3);
+            border-radius: 3px
+        }
+
+        #back-to-top {
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity .3s
+        }
+
+        #back-to-top.show {
+            opacity: 1;
+            pointer-events: auto
+        }
+
+        .grid-bg {
+            background-image: radial-gradient(circle at 2px 2px, rgba(56, 189, 248, .04) 1px, transparent 0);
+            background-size: 28px 28px
+        }
+
+        .team-card {
+            border: 1px solid rgba(255, 255, 255, .06);
+            transition: border-color .3s, transform .3s
+        }
+
+        .team-card:hover {
+            border-color: rgba(56, 189, 248, .3);
+            transform: translateY(-5px)
+        }
+
+        /* ══ RWD FIXES ══ */
+        /* Prevent logo text overflow on small screens */
+        .logo-text {
+            white-space: nowrap;
+        }
+
+        /* Hero h1 — fluid font scaling */
+        @media (max-width: 400px) {
+            .hero-h1 {
+                font-size: 2.25rem !important;
+                line-height: 1.1 !important;
+            }
+        }
+
+        @media (max-width: 640px) {
+            .hero-h1 {
+                font-size: clamp(2rem, 8vw, 3rem) !important;
+            }
+
+            /* Marquee: reduce gap on mobile */
+            .marquee-track>div {
+                gap: 2rem !important;
+                padding-left: 1rem !important;
+                padding-right: 1rem !important;
+            }
+
+            /* Hero buttons: full width stack */
+            .hero-btns {
+                flex-direction: column !important;
+            }
+
+            .hero-btns a {
+                width: 100% !important;
+                justify-content: center !important;
+            }
+        }
+
+        /* Navbar: prevent overflow */
+        #navbar .max-w-7xl {
+            min-width: 0;
+        }
+
+        /* Mobile menu z-index safety */
+        #mobile-menu {
+            position: relative;
+            z-index: 49;
+        }
+
+        /* Touch targets minimum 44px */
+        #hamburger {
+            min-width: 44px;
+            min-height: 44px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        /* Process section: single column on xs */
+        @media (max-width: 639px) {
+            .process-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            /* Timeline: tighter on mobile */
+            .timeline-item {
+                gap: 1rem !important;
+            }
+
+            /* Stats grid: 1 col on very small */
+        }
+
+        @media (max-width: 479px) {
+            .stats-2col {
+                grid-template-columns: 1fr !important;
+            }
+        }
+
+        /* Portfolio filter: allow wrap on mobile */
+        .filter-wrap {
+            flex-wrap: wrap !important;
+        }
+
+        /* Prevent horizontal scroll from blobs */
+        section {
+            overflow-x: hidden;
+        }
+
+        /* Service cards: consistent min-height */
+        .service-card {
+            min-height: 0;
+        }
+
+        /* Images: never exceed container */
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+
+        /* Form: full width on mobile */
+        @media (max-width: 767px) {
+            .contact-grid {
+                grid-template-columns: 1fr !important;
+            }
+        }
+
+        /* Footer grid responsive */
+        @media (max-width: 1023px) {
+            .footer-grid {
+                gap: 2rem !important;
+            }
+        }
+
+        /* Back to top: safe position above mobile browser bar */
+        #back-to-top {
+            bottom: 1.5rem;
+            right: 1rem;
+        }
+
+        @media (min-width: 640px) {
+            #back-to-top {
+                right: 1.5rem;
+            }
+        }
+
+        /* Testimonial cards: consistent height */
+        .testimonial-card {
+            display: flex;
+            flex-direction: column;
+        }
+    </style>
+</head>
+
+<body class="antialiased">
+
+    <!-- ═══ NAV ═══ -->
+    <nav id="navbar" class="fixed top-0 w-full z-50 transition-all duration-300" aria-label="Nawigacja główna">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 py-4 flex justify-between items-center">
+            <a href="index.html" class="flex items-center gap-2 group flex-shrink-0"
+                aria-label="Web-Boost - strona główna">
+                <img src="webboost2.png" alt="Web-Boost" class="h-8 w-auto"
+                    style="filter:drop-shadow(0 0 8px rgba(56,189,248,0.3))" />
+            </a>
+            <div class="hidden md:flex items-center space-x-6 lg:space-x-8 text-sm font-medium">
+                <a href="services.html" class="text-slate-400 hover:text-primary transition-colors">Usługi</a>
+                <a href="portfolio.html" class="text-slate-400 hover:text-primary transition-colors">Realizacje</a>
+                <a href="whyus.html" class="text-primary font-semibold">Dlaczego my</a>
+                <a href="index.html#kontakt" class="text-slate-400 hover:text-primary transition-colors">Kontakt</a>
+            </div>
+            <a href="index.html#kontakt"
+                class="hidden md:inline-flex btn-primary text-slate-900 px-4 lg:px-5 py-2.5 rounded-lg font-bold text-sm items-center gap-2 shadow-lg shadow-primary/20 flex-shrink-0 whitespace-nowrap">
+                Bezpłatna wycena
+                <svg class="w-4 h-4" fill="none" stroke="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                    <path d="M14 5l7 7m0 0l-7 7m7-7H3" stroke-linecap="round" stroke-linejoin="round"
+                        stroke-width="2" />
+                </svg>
+            </a>
+            <button id="hamburger"
+                class="md:hidden text-slate-300 hover:text-primary transition-colors p-2 flex-shrink-0"
+                aria-label="Otwórz menu" aria-expanded="false" aria-controls="mobile-menu">
+                <svg id="ham-icon" class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
+                </svg>
+                <svg id="close-icon" class="w-6 h-6 hidden" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M6 18L18 6M6 6l12 12" />
+                </svg>
+            </button>
+        </div>
+        <!-- Mobile menu -->
+        <div id="mobile-menu" class="glass border-t border-white/5" role="navigation" aria-label="Menu mobilne">
+            <div class="max-w-7xl mx-auto px-4 sm:px-6 py-6 flex flex-col gap-5 text-sm font-semibold">
+                <a href="services.html" class="text-slate-300 hover:text-primary transition-colors"
+                    onclick="closeMobile()">Usługi</a>
+                <a href="portfolio.html" class="text-slate-300 hover:text-primary transition-colors"
+                    onclick="closeMobile()">Realizacje</a>
+                <a href="whyus.html" class="text-primary" onclick="closeMobile()">Dlaczego my</a>
+                <a href="index.html#kontakt" class="text-slate-300 hover:text-primary transition-colors"
+                    onclick="closeMobile()">Kontakt</a>
+                <a href="index.html#kontakt"
+                    class="btn-primary text-center text-slate-900 px-5 py-3 rounded-lg font-bold"
+                    onclick="closeMobile()">Bezpłatna wycena</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ═══ HERO ═══ -->
+    <section class="relative pt-36 pb-20 overflow-hidden grid-bg" aria-labelledby="why-hero">
+        <div
+            class="absolute top-0 right-0 w-[500px] h-[500px] bg-primary/8 rounded-full blur-[130px] animate-glow pointer-events-none">
+        </div>
+        <div class="absolute bottom-0 left-0 w-[400px] h-[400px] bg-indigo-500/8 rounded-full blur-[120px] animate-glow pointer-events-none"
+            style="animation-delay:2s"></div>
+        <div class="max-w-7xl mx-auto px-6 text-center relative z-10">
+            <div
+                class="inline-flex items-center gap-2 px-3 py-1.5 rounded-full glass border border-primary/20 text-primary text-xs font-bold tracking-widest uppercase mb-8 reveal">
+                <span class="w-2 h-2 bg-primary rounded-full animate-pulse"></span>Nasz cel
+            </div>
+            <h1 id="why-hero"
+                class="font-display text-5xl md:text-7xl font-bold text-white leading-tight mb-6 reveal reveal-delay-1">
+                Partner, który<br /><span class="grad-text">dostarcza wyniki</span>
+            </h1>
+            <p class="max-w-2xl mx-auto text-lg text-slate-400 leading-relaxed reveal reveal-delay-2">
+                Od 2019 roku pomagamy polskim firmom budować silną obecność w internecie. Nie jesteśmy tylko wykonawcą —
+                jesteśmy Twoim partnerem w cyfrowym wzroście.
+            </p>
+        </div>
+    </section>
+
+    <!-- ═══ MISSION BANNER ═══ -->
+    <section class="px-6 py-16" aria-label="Nasza misja">
+        <div class="max-w-7xl mx-auto reveal">
+            <div class="relative w-full h-[420px] rounded-3xl overflow-hidden group shadow-2xl shadow-primary/10">
+                <div class="absolute inset-0 bg-gradient-to-t from-darkBg via-darkBg/50 to-transparent z-10"></div>
+                <img alt="Zespół Web-Boost pracujący nad projektem stron internetowych"
+                    class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
+                    src="https://lh3.googleusercontent.com/aida-public/AB6AXuD32HLYcHel7A_mC6dOMco5Isd4hiQWIWJSCcx3oaZaFD3NspUZ1anVfvEkW0rpxBlTobqslX_Zn2ssfKWXRQQgC__bKEEjLk3xIixOFfB9AszsFszRNKNBQhDhrynpizUU7k8STbPjgPMNo6hzc3Xn3fhrdqdtzaTJTYvN7J3CUfxcf0Xd6qcuisovXZkcFvnKMIpn0JAfFBEzLCpv7DJcgrwvvbLZHRqNXPgSFumgSlWuBw6p_YLWQ7qR2MHlt-WAtHbJYTjYBWvk"
+                    loading="lazy" />
+                <div class="absolute bottom-10 left-10 z-20 max-w-xl">
+                    <h3 class="font-display text-3xl md:text-4xl font-bold text-white mb-4">Nasza misja: wzmacniamy web
+                    </h3>
+                    <p class="text-slate-200 text-lg leading-relaxed">Łączymy skomplikowaną technologię z intuicyjnym UX
+                        — robiąc sieć szybszą i dostępniejszą dla każdego biznesu.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ STATS ═══ -->
+    <section class="py-16 px-6 bg-darkCard/40" aria-label="Nasze statystyki">
+        <div class="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-4 gap-5">
+            <div class="stat-card glass rounded-2xl p-7 text-center reveal reveal-delay-1">
+                <p class="font-display text-4xl font-bold grad-text mb-2">120+</p>
+                <p class="text-slate-400 text-sm">Projektów ukończonych</p>
+            </div>
+            <div class="stat-card glass rounded-2xl p-7 text-center reveal reveal-delay-2">
+                <p class="font-display text-4xl font-bold grad-text mb-2">98%</p>
+                <p class="text-slate-400 text-sm">Klientów poleca nas</p>
+            </div>
+            <div class="stat-card glass rounded-2xl p-7 text-center reveal reveal-delay-3">
+                <p class="font-display text-4xl font-bold grad-text mb-2">5 lat</p>
+                <p class="text-slate-400 text-sm">Na rynku</p>
+            </div>
+            <div class="stat-card glass rounded-2xl p-7 text-center reveal reveal-delay-4">
+                <p class="font-display text-4xl font-bold grad-text mb-2">TOP3</p>
+                <p class="text-slate-400 text-sm">Śr. pozycja w Google</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CORE VALUES ═══ -->
+    <section class="py-24 px-6" aria-labelledby="values-heading">
+        <div class="max-w-7xl mx-auto">
+            <div class="mb-14 reveal">
+                <span class="inline-block text-primary text-xs font-bold tracking-[.2em] uppercase mb-4">Czym się
+                    kierujemy</span>
+                <h2 id="values-heading" class="font-display text-3xl md:text-5xl font-bold text-white mb-4">Nasze
+                    wartości</h2>
+                <p class="text-slate-400 text-lg max-w-2xl">Każda linijka kodu i każdy piksel tworzone są zgodnie z
+                    trzema filarami, które definiują Web-Boost.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-7">
+                <article class="value-card glass rounded-2xl p-8 reveal reveal-delay-1">
+                    <div
+                        class="val-icon w-14 h-14 bg-primary/10 text-primary rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3">Szybkość</h3>
+                    <p class="text-slate-400 leading-relaxed">Błyskawiczne strony zoptymalizowane pod Core Web Vitals —
+                        bo każda sekunda opóźnienia to utracony klient i słabsza pozycja w Google.</p>
+                </article>
+                <article class="value-card glass rounded-2xl p-8 reveal reveal-delay-2">
+                    <div
+                        class="val-icon w-14 h-14 bg-indigo-500/10 text-indigo-400 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" stroke-linecap="round"
+                                stroke-linejoin="round" stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3">Jakość</h3>
+                    <p class="text-slate-400 leading-relaxed">Pixel-perfect projekty i solidna architektura, która
+                        skaluje się razem z Twoim biznesem i wytrzymuje próbę czasu.</p>
+                </article>
+                <article class="value-card glass rounded-2xl p-8 reveal reveal-delay-3">
+                    <div
+                        class="val-icon w-14 h-14 bg-purple-500/10 text-purple-400 rounded-xl flex items-center justify-center mb-6">
+                        <svg class="w-7 h-7" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path d="M13 7h8m0 0v8m0-8l-8 8-4-4-6 6" stroke-linecap="round" stroke-linejoin="round"
+                                stroke-width="2" />
+                        </svg>
+                    </div>
+                    <h3 class="font-display text-xl font-bold text-white mb-3">Wyniki</h3>
+                    <p class="text-slate-400 leading-relaxed">Data-driven strategie nastawione na konwersję — nie
+                        budujemy tylko ładnych stron, budujemy narzędzia sprzedaży dla Twojego biznesu.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ WHY CHOOSE US — DETAILS ═══ -->
+    <section class="py-24 px-6 bg-darkCard/40" aria-labelledby="advantages-heading">
+        <div class="max-w-7xl mx-auto grid lg:grid-cols-2 gap-16 items-center">
+            <div class="reveal">
+                <span class="inline-block text-primary text-xs font-bold tracking-[.2em] uppercase mb-4">Przewagi</span>
+                <h2 id="advantages-heading" class="font-display text-3xl md:text-5xl font-bold text-white mb-10">
+                    Dlaczego wiodące firmy<br /><span class="grad-text">wybierają Web-Boost</span></h2>
+                <div class="space-y-8">
+                    <div class="flex gap-5">
+                        <div
+                            class="flex-shrink-0 w-11 h-11 bg-primary/10 border border-primary/20 rounded-full flex items-center justify-center text-primary">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1.5">Terminowość i transparentność</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Dotrzymujemy terminów i regularnie
+                                informujemy o postępach. Żadnych niespodzianek, żadnego czekania tygodniami na
+                                odpowiedź.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5">
+                        <div
+                            class="flex-shrink-0 w-11 h-11 bg-primary/10 border border-primary/20 rounded-full flex items-center justify-center text-primary">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 19v-6a2 2 0 00-2-2H5a2 2 0 00-2 2v6a2 2 0 002 2h2a2 2 0 002-2zm0 0V9a2 2 0 012-2h2a2 2 0 012 2v10m-6 0a2 2 0 002 2h2a2 2 0 002-2m0 0V5a2 2 0 012-2h2a2 2 0 012 2v14a2 2 0 01-2 2h-2a2 2 0 01-2-2z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1.5">Mierzalne efekty SEO</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Raporty miesięczne z konkretnymi danymi:
+                                pozycje w Google, ruch organiczny, konwersje. Zawsze wiesz, za co płacisz.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5">
+                        <div
+                            class="flex-shrink-0 w-11 h-11 bg-primary/10 border border-primary/20 rounded-full flex items-center justify-center text-primary">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1.5">Partnerstwo, nie tylko wykonawstwo</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Jesteśmy z Tobą na każdym etapie: od
+                                projektu, przez wdrożenie, po bieżące pozycjonowanie i wsparcie techniczne.</p>
+                        </div>
+                    </div>
+                    <div class="flex gap-5">
+                        <div
+                            class="flex-shrink-0 w-11 h-11 bg-primary/10 border border-primary/20 rounded-full flex items-center justify-center text-primary">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-bold mb-1.5">Gwarancja satysfakcji</h4>
+                            <p class="text-slate-400 text-sm leading-relaxed">Jeśli nie jesteś zadowolony z pierwszych
+                                30 dni współpracy — zwracamy pieniądze. Bez pytań.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Right: Visual -->
+            <div class="relative reveal reveal-delay-2">
+                <div
+                    class="absolute inset-0 bg-gradient-to-br from-primary/20 to-indigo-500/20 rounded-full blur-3xl opacity-20 pointer-events-none">
+                </div>
+                <div class="grid grid-cols-2 gap-4">
+                    <div class="glass rounded-2xl p-6 border border-white/5 text-center">
+                        <p class="font-display text-4xl font-bold grad-text mb-2">4.9</p>
+                        <p class="text-slate-400 text-sm">Średnia ocena</p>
+                        <div class="text-yellow-400 text-xs mt-1">★★★★★</div>
+                    </div>
+                    <div class="glass rounded-2xl p-6 border border-white/5 text-center">
+                        <p class="font-display text-4xl font-bold grad-text mb-2">&lt;24h</p>
+                        <p class="text-slate-400 text-sm">Czas odpowiedzi</p>
+                    </div>
+                    <div class="glass rounded-2xl p-6 border border-white/5 text-center col-span-2">
+                        <p class="font-display text-4xl font-bold grad-text mb-2">30 dni</p>
+                        <p class="text-slate-400 text-sm">Gwarancja satysfakcji lub zwrot środków</p>
+                    </div>
+                    <div
+                        class="glass rounded-2xl p-6 border border-primary/15 bg-primary/3 col-span-2 flex items-center gap-4">
+                        <div class="p-3 bg-primary/15 rounded-xl text-primary flex-shrink-0">
+                            <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div>
+                            <p class="text-white font-bold text-sm mb-0.5">Certyfikowani specjaliści</p>
+                            <p class="text-slate-400 text-xs">Google Partner · Meta Blueprint · Semrush Academy</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ TIMELINE ═══ -->
+    <section class="py-24 px-6" aria-labelledby="timeline-heading">
+        <div class="max-w-4xl mx-auto">
+            <div class="text-center mb-16 reveal">
+                <span class="inline-block text-primary text-xs font-bold tracking-[.2em] uppercase mb-4">Nasza
+                    historia</span>
+                <h2 id="timeline-heading" class="font-display text-3xl md:text-5xl font-bold text-white">Jak tu
+                    dotarliśmy</h2>
+            </div>
+            <div class="space-y-0">
+                <div class="timeline-item relative flex gap-8 reveal reveal-delay-1">
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="timeline-dot w-12 h-12 rounded-full bg-primary flex items-center justify-center text-slate-900 z-10 shadow-lg shadow-primary/40 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="w-px flex-1 bg-gradient-to-b from-primary/50 to-white/5 mt-2"></div>
+                    </div>
+                    <div class="pb-12 pt-1">
+                        <span class="text-sm font-bold text-primary mb-1 block">2019</span>
+                        <h3 class="font-display text-2xl font-bold text-white mb-2">Założenie Web-Boost</h3>
+                        <p class="text-slate-400">Web-Boost startuje jako mały zespół pasjonatów webdevelopmentu i SEO z
+                            Warszawy, obsługując pierwszych lokalnych klientów.</p>
+                    </div>
+                </div>
+                <div class="timeline-item relative flex gap-8 reveal reveal-delay-2">
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="timeline-dot w-12 h-12 rounded-full glass border border-primary/30 flex items-center justify-center text-primary z-10 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="w-px flex-1 bg-white/5 mt-2"></div>
+                    </div>
+                    <div class="pb-12 pt-1">
+                        <span class="text-sm font-bold text-primary mb-1 block">2021</span>
+                        <h3 class="font-display text-2xl font-bold text-white mb-2">50+ klientów i ekspansja</h3>
+                        <p class="text-slate-400">Rozwijamy ofertę o kompleksowe SEO i Google Ads. Przekraczamy 50
+                            obsługiwanych firm, wchodząc na rynek ogólnopolski.</p>
+                    </div>
+                </div>
+                <div class="timeline-item relative flex gap-8 reveal reveal-delay-3">
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="timeline-dot w-12 h-12 rounded-full glass border border-primary/30 flex items-center justify-center text-primary z-10 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M5 3v4M3 5h4M6 17v4m-2-2h4m5-16l2.286 6.857L21 12l-5.714 2.143L13 21l-2.286-6.857L5 12l5.714-2.143L13 3z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                            </svg>
+                        </div>
+                        <div class="w-px flex-1 bg-white/5 mt-2"></div>
+                    </div>
+                    <div class="pb-12 pt-1">
+                        <span class="text-sm font-bold text-primary mb-1 block">2023</span>
+                        <h3 class="font-display text-2xl font-bold text-white mb-2">Wyróżnienie w branży</h3>
+                        <p class="text-slate-400">Uzyskujemy status Google Partner. Zostajemy wymienieni wśród
+                            najlepszych agencji webowych w Polsce przez branżowe rankingi.</p>
+                    </div>
+                </div>
+                <div class="timeline-item relative flex gap-8 reveal reveal-delay-4">
+                    <div class="flex flex-col items-center">
+                        <div
+                            class="timeline-dot w-12 h-12 rounded-full glass border border-primary/30 flex items-center justify-center text-primary z-10 flex-shrink-0">
+                            <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="pt-1">
+                        <span class="text-sm font-bold text-primary mb-1 block">2025 — teraz</span>
+                        <h3 class="font-display text-2xl font-bold text-white mb-2">Web-Boost 2.0 i AI</h3>
+                        <p class="text-slate-400">Wdrażamy narzędzia AI do analizy SEO i personalizacji stron.
+                            Obsługujemy ponad 120 firm w całej Polsce, stale rozwijając zespół i ofertę.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ TEAM ═══ -->
+    <section class="py-24 px-6 bg-darkCard/40" aria-labelledby="team-heading">
+        <div class="max-w-7xl mx-auto">
+            <div class="text-center mb-14 reveal">
+                <span class="inline-block text-primary text-xs font-bold tracking-[.2em] uppercase mb-4">Ludzie</span>
+                <h2 id="team-heading" class="font-display text-3xl md:text-4xl font-bold text-white mb-4">Poznaj nasz
+                    zespół</h2>
+                <p class="text-slate-400 max-w-xl mx-auto">Specjaliści z pasją do webdevelopmentu, SEO i UX. Razem
+                    tworzymy strony, które napędzają Twój biznes.</p>
+            </div>
+            <div class="grid md:grid-cols-4 gap-6">
+                <article class="team-card glass rounded-2xl p-6 text-center reveal reveal-delay-1">
+                    <div
+                        class="w-16 h-16 rounded-full bg-gradient-to-br from-primary to-indigo-500 flex items-center justify-center text-slate-900 font-display text-xl font-bold mx-auto mb-4">
+                        MK</div>
+                    <h4 class="font-bold text-white mb-1">Michał Kowalski</h4>
+                    <p class="text-primary text-xs font-semibold mb-2 uppercase tracking-wider">CEO & Lead Developer</p>
+                    <p class="text-slate-500 text-xs">10 lat w webdevelopmencie. Architekt rozwiązań technicznych dla
+                        każdego projektu.</p>
+                </article>
+                <article class="team-card glass rounded-2xl p-6 text-center reveal reveal-delay-2">
+                    <div
+                        class="w-16 h-16 rounded-full bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center text-white font-display text-xl font-bold mx-auto mb-4">
+                        AS</div>
+                    <h4 class="font-bold text-white mb-1">Anna Szymańska</h4>
+                    <p class="text-primary text-xs font-semibold mb-2 uppercase tracking-wider">SEO & Content Lead</p>
+                    <p class="text-slate-500 text-xs">Specjalistka SEO z certyfikatem Google. Odpowiada za strategie
+                        pozycjonowania.</p>
+                </article>
+                <article class="team-card glass rounded-2xl p-6 text-center reveal reveal-delay-3">
+                    <div
+                        class="w-16 h-16 rounded-full bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center text-white font-display text-xl font-bold mx-auto mb-4">
+                        PW</div>
+                    <h4 class="font-bold text-white mb-1">Piotr Wiśniewski</h4>
+                    <p class="text-primary text-xs font-semibold mb-2 uppercase tracking-wider">UX/UI Designer</p>
+                    <p class="text-slate-500 text-xs">Projektant interfejsów nastawionych na konwersję. Łączy estetykę z
+                        użytecznością.</p>
+                </article>
+                <article class="team-card glass rounded-2xl p-6 text-center reveal reveal-delay-4">
+                    <div
+                        class="w-16 h-16 rounded-full bg-gradient-to-br from-yellow-500 to-orange-500 flex items-center justify-center text-slate-900 font-display text-xl font-bold mx-auto mb-4">
+                        KN</div>
+                    <h4 class="font-bold text-white mb-1">Katarzyna Nowak</h4>
+                    <p class="text-primary text-xs font-semibold mb-2 uppercase tracking-wider">Google Ads & SEM</p>
+                    <p class="text-slate-500 text-xs">Certyfikowany specjalista Google Ads. Zarządza kampaniami
+                        reklamowymi klientów.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ CTA ═══ -->
+    <section class="py-20 px-6" aria-label="Wezwanie do działania">
+        <div
+            class="max-w-5xl mx-auto relative overflow-hidden rounded-3xl bg-primary shadow-2xl shadow-primary/20 reveal">
+            <div class="absolute inset-0 opacity-10 pointer-events-none"
+                style="background-image:url('https://www.transparenttextures.com/patterns/carbon-fibre.png')"></div>
+            <div class="relative z-10 p-10 md:p-20 text-center">
+                <h2 class="font-display text-3xl md:text-5xl font-bold text-white mb-6">Gotowy, by dołączyć<br />do
+                    naszych klientów?</h2>
+                <p class="text-white/90 text-lg mb-10 max-w-xl mx-auto">Ponad 120 firm zaufało Web-Boost. Następna może
+                    być Twoja.</p>
+                <div class="flex flex-col sm:flex-row items-center justify-center gap-4">
+                    <a href="kontakt.html"
+                        class="w-full sm:w-auto px-8 py-4 bg-white text-primary rounded-xl font-bold hover:bg-slate-50 transition-colors shadow-lg">Rozpocznij
+                        projekt</a>
+                    <a href="realizacje.html"
+                        class="w-full sm:w-auto px-8 py-4 bg-primary/20 text-white border border-white/30 rounded-xl font-bold hover:bg-white/10 transition-colors">Zobacz
+                        realizacje</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ═══ FOOTER ═══ -->
+    <footer class="border-t border-white/5 bg-darkBg" aria-label="Stopka strony">
+        <div class="max-w-7xl mx-auto px-6 py-16">
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12">
+                <div>
+                    <a href="index.html" class="flex items-center gap-2.5 mb-5">
+                        <div
+                            class="w-9 h-9 bg-gradient-to-br from-primary to-indigo-500 rounded-lg flex items-center justify-center">
+                            <svg class="w-5 h-5 text-slate-900" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path d="M13 10V3L4 14h7v7l9-11h-7z" stroke-linecap="round" stroke-linejoin="round"
+                                    stroke-width="2.5" />
+                            </svg>
+                        </div>
+                        <span class="font-display text-xl font-bold text-white">Web<span
+                                class="text-primary">-Boost</span></span>
+                    </a>
+                    <p class="text-slate-500 text-sm leading-relaxed mb-5">Agencja tworzenia stron internetowych i
+                        pozycjonowania SEO. Pomagamy firmom rosnąć w sieci.</p>
+                    <div class="flex items-center gap-1 text-yellow-400 text-sm mb-1">★★★★★</div>
+                    <p class="text-slate-500 text-xs">4.9/5 — opinie klientów</p>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold text-xs uppercase tracking-widest mb-5">Usługi</h3>
+                    <ul class="space-y-3 text-sm text-slate-400">
+                        <li><a href="uslugi.html" class="hover:text-primary transition-colors">Tworzenie stron www</a>
+                        </li>
+                        <li><a href="uslugi.html" class="hover:text-primary transition-colors">Sklepy internetowe</a>
+                        </li>
+                        <li><a href="uslugi.html" class="hover:text-primary transition-colors">Pozycjonowanie SEO</a>
+                        </li>
+                        <li><a href="uslugi.html" class="hover:text-primary transition-colors">Google Ads & SEM</a></li>
+                        <li><a href="uslugi.html" class="hover:text-primary transition-colors">Opieka techniczna</a>
+                        </li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold text-xs uppercase tracking-widest mb-5">Firma</h3>
+                    <ul class="space-y-3 text-sm text-slate-400">
+                        <li><a href="dlaczego-my.html" class="hover:text-primary transition-colors">O nas</a></li>
+                        <li><a href="realizacje.html" class="hover:text-primary transition-colors">Realizacje</a></li>
+                        <li><a href="kontakt.html" class="hover:text-primary transition-colors">Kontakt</a></li>
+                        <li><a href="#" class="hover:text-primary transition-colors">Polityka prywatności</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-white font-bold text-xs uppercase tracking-widest mb-5">Kontakt</h3>
+                    <ul class="space-y-4 text-sm text-slate-400">
+                        <li><a href="mailto:kontakt@web-boost.pl"
+                                class="flex items-center gap-3 hover:text-primary transition-colors"><svg
+                                    class="w-4 h-4 text-primary flex-shrink-0" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>kontakt@web-boost.pl</a></li>
+                        <li><a href="tel:+48000000000"
+                                class="flex items-center gap-3 hover:text-primary transition-colors"><svg
+                                    class="w-4 h-4 text-primary flex-shrink-0" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z"
+                                        stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                </svg>+48 000 000 000</a></li>
+                        <li class="flex items-center gap-3"><svg class="w-4 h-4 text-primary flex-shrink-0" fill="none"
+                                stroke="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z"
+                                    stroke-linecap="round" stroke-linejoin="round" stroke-width="2" />
+                                <path d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" stroke-linecap="round"
+                                    stroke-linejoin="round" stroke-width="2" />
+                            </svg>Warszawa, Polska</li>
+                    </ul>
+                    <div class="flex gap-3 mt-5">
+                        <a href="https://facebook.com/webboost" target="_blank" rel="noopener noreferrer"
+                            class="w-9 h-9 glass rounded-lg flex items-center justify-center text-slate-400 hover:text-primary border border-white/5 hover:border-primary/30 transition-all"
+                            aria-label="Facebook"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M24 12.073c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.99 4.388 10.954 10.125 11.854v-8.385H7.078v-3.47h3.047V9.43c0-3.007 1.792-4.669 4.533-4.669 1.312 0 2.686.235 2.686.235v2.953H15.83c-1.491 0-1.956.925-1.956 1.874v2.25h3.328l-.532 3.47h-2.796v8.385C19.612 23.027 24 18.062 24 12.073z" />
+                            </svg></a>
+                        <a href="https://linkedin.com/company/webboost" target="_blank" rel="noopener noreferrer"
+                            class="w-9 h-9 glass rounded-lg flex items-center justify-center text-slate-400 hover:text-primary border border-white/5 hover:border-primary/30 transition-all"
+                            aria-label="LinkedIn"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433a2.062 2.062 0 01-2.063-2.065 2.064 2.064 0 112.063 2.065zm1.782 13.019H3.555V9h3.564v11.452zM22.225 0H1.771C.792 0 0 .774 0 1.729v20.542C0 23.227.792 24 1.771 24h20.451C23.2 24 24 23.227 24 22.271V1.729C24 .774 23.2 0 22.222 0h.003z" />
+                            </svg></a>
+                        <a href="https://instagram.com/webboost" target="_blank" rel="noopener noreferrer"
+                            class="w-9 h-9 glass rounded-lg flex items-center justify-center text-slate-400 hover:text-primary border border-white/5 hover:border-primary/30 transition-all"
+                            aria-label="Instagram"><svg class="w-4 h-4" fill="currentColor" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2.163c3.204 0 3.584.012 4.85.07 3.252.148 4.771 1.691 4.919 4.919.058 1.265.069 1.645.069 4.849 0 3.205-.012 3.584-.069 4.849-.149 3.225-1.664 4.771-4.919 4.919-1.266.058-1.644.07-4.85.07-3.204 0-3.584-.012-4.849-.07-3.26-.149-4.771-1.699-4.919-4.92-.058-1.265-.07-1.644-.07-4.849 0-3.204.013-3.583.07-4.849.149-3.227 1.664-4.771 4.919-4.919 1.266-.057 1.645-.069 4.849-.069zM12 0C8.741 0 8.333.014 7.053.072 2.695.272.273 2.69.073 7.052.014 8.333 0 8.741 0 12c0 3.259.014 3.668.072 4.948.2 4.358 2.618 6.78 6.98 6.98C8.333 23.986 8.741 24 12 24c3.259 0 3.668-.014 4.948-.072 4.354-.2 6.782-2.618 6.979-6.98.059-1.28.073-1.689.073-4.948 0-3.259-.014-3.667-.072-4.947-.196-4.354-2.617-6.78-6.979-6.98C15.668.014 15.259 0 12 0zm0 5.838a6.162 6.162 0 100 12.324 6.162 6.162 0 000-12.324zM12 16a4 4 0 110-8 4 4 0 010 8zm6.406-11.845a1.44 1.44 0 100 2.881 1.44 1.44 0 000-2.881z" />
+                            </svg></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="border-t border-white/5">
+            <div class="max-w-7xl mx-auto px-6 py-6 flex flex-col sm:flex-row justify-between items-center gap-4">
+                <p class="text-slate-600 text-sm">© <span id="footer-year"></span> Web-Boost. Wszelkie prawa
+                    zastrzeżone.</p>
+                <div class="flex gap-6 text-slate-600 text-sm">
+                    <a href="#" class="hover:text-slate-400 transition-colors">Polityka prywatności</a>
+                    <a href="#" class="hover:text-slate-400 transition-colors">Regulamin</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" id="back-to-top"
+        class="fixed bottom-6 right-6 z-40 w-11 h-11 glass rounded-full border border-white/10 flex items-center justify-center text-primary hover:bg-primary/15 transition-all"
+        aria-label="Wróć na górę">
+        <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 15l7-7 7 7" />
+        </svg>
+    </a>
+
+    <script>
+        document.getElementById('footer-year').textContent = new Date().getFullYear();
+        const navbar = document.getElementById('navbar');
+        window.addEventListener('scroll', () => { navbar.classList.toggle('glass', window.scrollY > 20); navbar.classList.toggle('border-b', window.scrollY > 20); navbar.classList.toggle('border-white/5', window.scrollY > 20); document.getElementById('back-to-top').classList.toggle('show', window.scrollY > 400); }, { passive: true });
+        const hamburger = document.getElementById('hamburger'); const mobileMenu = document.getElementById('mobile-menu'); const hamIcon = document.getElementById('ham-icon'); const closeIcon = document.getElementById('close-icon');
+        hamburger.addEventListener('click', () => { const isOpen = mobileMenu.classList.toggle('open'); hamIcon.classList.toggle('hidden', isOpen); closeIcon.classList.toggle('hidden', !isOpen); hamburger.setAttribute('aria-expanded', isOpen); });
+        function closeMobile() { mobileMenu.classList.remove('open'); hamIcon.classList.remove('hidden'); closeIcon.classList.add('hidden'); hamburger.setAttribute('aria-expanded', false); }
+        document.addEventListener('click', e => { if (!hamburger.contains(e.target) && !mobileMenu.contains(e.target)) closeMobile(); });
+        const obs = new IntersectionObserver(entries => { entries.forEach(e => { if (e.isIntersecting) { e.target.classList.add('visible'); obs.unobserve(e.target); } }); }, { threshold: .12, rootMargin: '0px 0px -40px 0px' });
+        document.querySelectorAll('.reveal').forEach(el => obs.observe(el));
+    </script>
+</body>
+
+</html>
